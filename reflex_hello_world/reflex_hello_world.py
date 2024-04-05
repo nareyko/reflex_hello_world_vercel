@@ -1,7 +1,9 @@
 """Welcome to Reflex! This file outlines the steps to create a basic app."""
 
-from rxconfig import config
-
+config = rx.Config(
+    app_name="reflex_hello_world",
+    api_url="http://reflex-hello-world-backend.vercel.app:80",
+)
 import reflex as rx
 
 docs_url = "https://reflex.dev/docs/getting-started/introduction/"
