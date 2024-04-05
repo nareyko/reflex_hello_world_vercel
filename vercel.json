@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "/reflex_hello_world/reflex_hello_world.py",
+      "src": "reflex_hello_world/reflex_hello_world.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/reflex_hello_world/reflex_hello_world.py"
+      "src": "(.*)",
+      "dest": "reflex_hello_world/reflex_hello_world.py"
     }
   ]
 }
