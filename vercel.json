@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "reflex_hello_world/reflex_hello_world.py",
+      "use": "@vercel/python"
+    }
+  ]
+}
